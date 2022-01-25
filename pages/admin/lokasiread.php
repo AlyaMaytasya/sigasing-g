@@ -47,7 +47,7 @@ $db = $database->getConnection();
 $selectSql = "SELECT * FROM lokasi";
 $stmt = $db->prepare($selectSql);
 $stmt->execute();
-$no = 1;
+$no = 1; 
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 ?>
 <tr>
