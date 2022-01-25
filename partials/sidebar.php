@@ -23,17 +23,17 @@ img-circle elevation-3" style="opacity: .8">
                         </p>
                       </a>
                   </li>
- <li class="nav-item"> 
- <a href="#" class="nav-link">
- <i class="nav-icon fas fa-copy"></i>
- <p>
- Master Data
-<i class="fas fa-angle-left right"></i>
- </p>
+                        <li class="nav-item"> 
+                        <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                        Master Data
+                        <i class="fas fa-angle-left right"></i>
+                        </p>
  </a>
  <ul class="nav nav-treeview">
  <li class="nav-item">
- <a href="#" class="nav-link">
+ <a href="?page=lokasiread" class="nav-link">
  <i class="far fa-circle nav-icon"></i>
  <p>Lokasi</p>
  </a>
