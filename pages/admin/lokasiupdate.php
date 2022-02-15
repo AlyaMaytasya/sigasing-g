@@ -11,7 +11,9 @@ if (isset($_GET['id'])){
     $stmt->execute();
     $row = $stmt->fetch();
     if (isset($row['id'])){
+        if (isset($_POST['button_update'])){
 
+        }
 ?>
 <section class="content-header">
 <?php
