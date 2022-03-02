@@ -43,7 +43,7 @@
         <div class="card">
         <div class="card-header">
             <h3 class="card-title">Data Rekap Gaji</h3>
-                <a href="?page=lokasicreate" class="btn btn-success btn-sm float-right">
+                <a href="?page=export/penggajianrekap-pdf.php" class="btn btn-success btn-sm float-right">
                     <i class="fa fa-file"></i> Ekspor PDF</a>
         </div>
         <div class="card-body">
