@@ -98,7 +98,7 @@
         <td style="text-align:right"><?php echo number_format($row['jumlah_uang_makan'])?></td>
         <td style="text-align:right"><?php echo number_format($row['total'])?></td>
         <td>
-        <a href="?page=penggajianrekaptahun$tahun=<?php echo $row['id'] ?>" class="btn btn-primary btn-sm mr-1">
+        <a href="?page=penggajianrekaptahun$tahun=<?php echo $row['tahun'] ?>" class="btn btn-primary btn-sm mr-1">
             <i class="fa fa-info"></i>Rincian
         </a>
         </td>
@@ -115,6 +115,11 @@
     <?php include_once "partials/scriptsdatatables.php" ?>
 <script>
     $(function() {
-    $('#mytable').DataTable()
+        $('#mytable').DataTable({
+            "responsive":true,
+            "lengthChange":false,
+            "autoWidth": false,
+            "buttons": ["copy","csv","excel","pdf","print","colvis"]
+        }).buttons().container().appendTo('#mytable_wrapper .col-md-6:eq(0)');
     });
 </script>
